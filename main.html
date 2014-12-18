@@ -53,15 +53,33 @@
 		        </div><!--/.nav-collapse -->
       		</div>
     	</nav>
+
     	<div class="container">
     		<div id="intro">
-        		<h1>Bootstrap starter template</h1>
+        		<h1>Planechase</h1>
       		</div>
     	</div>
 
-    	<div class="container">
-    		<img id="plane" src="assets/planes/Elemental Thunder/Eloren Wilds.jpg">
+    	<!--
+    	Consider the following:
+    	1) Remove the images and instead use the <div> tag and place the picture as the background
+    	2) figure out if you can make the columns the same height.
+    -->
+    	<div class="container" >
+	    	<div class="row" id="firstRow">
+	    		<div class="col-xs-2 col-sm-2 col-md-2 arrow">
+					<img id="nextButton" src="assets/arrows/leftArrow.png">
+	    		</div>
+				<div class="col-xs-8 col-sm-8 col-md-8">
+	    			<img id="plane" src="assets/planes/Elemental Thunder/Eloren Wilds.jpg">
+	    		</div>
+	    		<div class="col-xs-2 col-sm-2 col-md-2 arrow">
+					<img id="previousButton" src="assets/arrows/rightArrow.png">
+	    		</div>
+	    	</div>
     	</div>
+
+    	
 
     	<script src="./Starter Template for Bootstrap_files/jquery.min.js"></script>
     	<script src="./Starter Template for Bootstrap_files/bootstrap.min.js"></script>

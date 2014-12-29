@@ -16,5 +16,10 @@ body {
 
 .arrow {
 	height: 100%;
+	
+}
+
+#panel {
+
 	text-align: center;
 }
